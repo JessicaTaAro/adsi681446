@@ -1,0 +1,885 @@
+*html{
+	border: 0;
+	margin:0;
+	padding:0;
+}
+
+body{font-family: sans-serif;}
+section.ppal{
+	background-color: #292929;
+	margin: 0px auto;
+	width: 1120px;
+	height: 250px;
+}
+nav#menu li {
+	display: inline-block;
+	left: 240px;
+	padding: 10px;
+	font-size: 0.8em;
+	margin-top: 12px;
+	position: relative;
+
+}
+nav#menu li a{
+	color: #696969;
+	text-decoration: none;
+	margin:10px;
+}
+nav#menu li:hover{
+	background-color: #2B95FF;
+	cursor: pointer;
+
+}
+nav#menu li:hover > a{
+	color: #fff;
+
+}
+header h1 {
+	color: #818181;
+	text-align:center;
+	font-weight: normal;
+}
+section.ppal h1 strong{
+	color: #fff;
+	font-weight: normal;
+}
+
+section.caja2{
+	background-color: #333333;
+	margin:0 auto;
+	width: 1120px;
+	height: 640px;
+
+}
+
+section.imagenes article.fondo {
+	background-image: url(imgs/top.png);
+	width: 900px;
+	height: 278px;
+
+}
+
+section.imagenes{
+	margin-left: 105px;
+	padding-top: 35px;
+    
+}
+
+section.imagenes article.fondo h1{
+	position: relative;
+	top:80px;
+	left:550px;
+    font-weight: lighter;
+    font-size: 30px;
+	color: #B9B9B9;
+}
+
+section.imagenes article.fondo h1.t{
+	position: relative;
+	top:40px;
+	left:585px;
+} 
+
+section.imagenes h2{
+	position:relative;
+	top: -110px;
+	left:637px;
+	font-weight: lighter;
+	font-size: 16px; 
+	color:#959595
+	}
+ figure img{
+ 	position: relative;
+ 	left: 800px;
+ 	top: -145px;
+ }
+
+section.imguno{
+	background-color:#0080C0;
+	width: 288px;
+	height:220px;
+	position: relative;
+	left: 105px;
+	top: -70px;
+} 
+
+section.imguno figure#fondo1{
+	background-image: url(imgs/photo1.png);
+	background-repeat: no-repeat; 
+	width: 288px;
+	height: 142px;
+	position: relative;
+	right:40px; 
+}
+
+section.imguno h3{
+	position: relative;
+	left:20px;
+	color: #DADBD5;
+	font-weight: lighter;
+}
+
+section.imguno h5{
+	position: relative; 
+	left: 20px;
+	top:-20px;
+	font-weight: lighter;
+	color: #C5C7BC;
+}
+
+ section.imguno figure img#una{
+ 	left:195px;
+ 	position: relative;
+ 	top: -80px; 
+
+ } 
+
+section.imgdos{
+	background-color:#CC4200;
+	width: 288px;
+	height:220px;
+	position: relative;
+	left: 410px;
+	top: -305px;
+} 
+
+section.imgdos figure#fondo2{
+	background-image: url(imgs/photo2.png);
+	background-repeat: no-repeat; 
+	width: 288px;
+	height: 142px;
+	position: relative;
+	right:42px; 
+}
+
+section.imgdos h3{
+	position: relative;
+	left:20px;
+	color: #DADBD5;
+	font-weight: lighter;
+}
+
+section.imgdos h5{
+	position: relative; 
+	left: 20px;
+	top:-20px;
+	font-weight: lighter;
+	color: #C5C7BC;
+}
+
+section.imgdos figure img#dos{
+ 	left:195px;
+ 	position: relative;
+ 	top: -80px; 
+
+ } 
+
+
+section.imgtres{
+	background-color:#494949;
+	width: 288px;
+	height:220px;
+	position: relative;
+	left: 715px;
+	top: -541px;
+} 
+
+
+
+ section.imgtres figure#fondo3{
+	background-image: url(imgs/photo3.png);
+	background-repeat: no-repeat; 
+	width: 288px;
+	height: 142px;
+	position: relative;
+	right:40px; 
+}
+
+section.imgtres h3{
+	position: relative;
+	left:20px;
+	color: #DADBD5;
+	font-weight: lighter;
+}
+
+section.imgtres h5{
+	position: relative; 
+	left: 20px;
+	top:-20px;
+	font-weight: lighter;
+	color: #C5C7BC;
+}
+
+section.imgtres figure img#tres{
+ 	left:195px;
+ 	position: relative;
+ 	top: -80px; 
+ }
+
+ section.caja3{
+ 	background-color:#fff;
+ 	margin:0 auto;
+	width: 1120px;
+	height: 400px;
+
+}
+ section.caja3 article#uno h2{
+ 	position: relative;
+ 	left:100px;
+ 	top: 20px;
+ 	font-size: 25px;
+ 	color: #545548;
+ 	font-weight: lighter;
+ }
+
+ section.caja3 article#uno h2#g{
+ 	position: relative;
+ 	left: 100px;
+ 	top:5px;
+ 	font-weight: lighter;
+ }
+
+ section.caja3 article#uno h5{
+ 	position: relative;
+ 	left: 100px;
+ 	top:5px;
+ 	font-size: 15px;
+ 	font-weight: lighter;
+ }
+  section.caja3 article#uno h5#d{
+  	position: relative;
+ 	top:-12px;
+ 	font-weight: lighter;
+ }
+
+section.caja3 nav#lista li a{
+	position: relative;
+	left: 100px;
+    font-size: 10px;
+    top:-3px;
+}
+
+section.caja3 nav#lista li#a{
+  position: relative;
+  top: -15px;
+}
+
+section.caja3 nav#lista li#b{
+  position: relative;
+  top:-7px;
+}
+
+section.caja3 nav#lista li#c{
+  position: relative;
+  top:-1px;
+}
+
+section.caja3 nav#lista li#d{
+  position: relative;
+  top:6px;
+}
+
+section.caja3 nav#lista li#e{
+  position: relative;
+  top:13px;
+}
+
+section.caja3 nav#lista li#f{
+  position: relative;
+  top:20px;
+}
+
+
+
+
+
+section.caja3 nav#lista li{
+	list-style-type: none;
+}
+ section.caja3 nav#lista a{
+ 	color:#0080C0;
+ }
+  
+  article#dos img{
+  	position: relative;
+  	left: 298px;
+  	top:-295px;
+  }
+  article#dos h3{
+  	position: relative;
+  	font-weight: lighter;
+  	color: #676767;
+  	top:-300px;
+  	left: 337px;
+  }
+
+  article#dos h5{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -311px;
+  	left: 338px;
+  }
+
+  article#dos h5#u{
+  	font-weight: lighter;
+  	font-size: 0.6em;
+  	position: relative;
+  	top: -320px;
+  	left: 339px;
+  }
+  
+  article#dos h5#i{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -330px;
+  	left: 340px;
+  }
+
+  article#dos img#lm{
+  	margin-top:-52px;
+    left:300px;
+  }
+
+  article#tres img#dos{
+  	position: relative;
+  	left: 525px;
+  	top:-613px;
+  }
+
+  article#tres h3#dos{
+  	font-weight: lighter;
+  	position: relative;
+  	top:-619px;
+  	left:564px;
+  	color: #676767;
+  }
+
+  article#tres h5#v{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -630px;
+  	left: 565px;
+  }
+
+  article#tres h5#b{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -638px;
+  	left: 565px;
+  }
+  
+  article#tres h5#n{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -648px;
+  	left: 565px;
+  }
+  
+  article#tres img#lmdos{
+  	position: relative;
+  	top: -636px;
+  	left:526px;
+  }
+
+  article#cuatro img#tres{
+  	position: relative;
+  	left: 750px;
+  	top:-953px;
+  }
+
+  article#cuatro h3#j{
+  	font-weight: lighter;
+  	position: relative;
+  	top:-957px;
+  	left:793px;
+  	color: #676767;
+  }
+
+  article#cuatro h5#i{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -970px;
+  	left: 793px;
+  }
+
+  article#cuatro h5#p{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -979px;
+  	left: 793px;
+  }
+  
+  article#cuatro h5#m{
+  	font-weight: lighter;
+  	font-size: 9.5px;
+  	position: relative;
+  	top: -988px;
+  	left: 793px;
+  }
+  
+  article#cuatro img#lmtres{
+  	position: relative;
+  	top: -977px;
+  	left:754px;
+ }
+
+ section.caja4{
+  background-color: #F8F8F8;
+  height: 570px;
+  width: 1120px;
+  margin:0px auto;
+
+}
+
+section.caja4 h1{
+  font-weight: lighter;
+  position: relative;
+  top:10px;
+  left: 99px;
+  color:#7F7F7F;
+}
+
+section.caja4 h5{
+  font-weight: lighter;
+  position: relative;
+  left:100px;
+  top: -10px;
+  color:#A8A8A8;
+}
+section.caja4 img#una{
+  position: relative;
+  top: 5px;
+  left:60px;
+}
+
+section.caja4 h5#uno{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-151px;
+  left: 325px;
+}
+
+section.caja4 h5#dos{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-160px;
+  left: 325px;
+}
+section.caja4 h5#tres{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-169px;
+  left: 325px;
+}
+
+section.caja4 h5#cuatro{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-175px;
+  left: 325px;
+}
+
+section.caja4 img#dos{
+  position: relative;
+  top: -173px;
+  left:286px;
+}
+
+section.caja4 img#tres{
+  position: relative;
+  top: -150px;
+  left:60px;
+}
+
+section.caja4 h4#uno{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:-248px;
+  left: 200px;
+}
+
+section.caja4 h5#m{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-250px;
+  left: 200px;
+}
+
+section.caja4 h5#j{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-257px;
+  left: 200px;
+}
+
+section.caja4 img#cuatro{
+  position: relative;
+  top: -351px;
+  left:530px;
+}
+ 
+section.caja4 h4#l{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:-450px;
+  left: 670px;
+}
+
+section.caja4 h5#h{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-450px;
+  left: 670px;
+}
+
+section.caja4 h5#g{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-459px;
+  left: 670px;
+}
+
+section.caja4 img#cinco{
+  position: relative;
+  top: -420px;
+  left:59px;
+}
+
+section.caja4 h4#y{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:-515px;
+  left: 200px;
+}
+
+section.caja4 h5#t{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-515px;
+  left: 200px;
+}
+
+section.caja4 h5#o{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-525px;
+  left: 200px;
+}
+
+section.caja4 img#seis{
+  position: relative;
+  top: -621px;
+  left:530px;
+}
+
+section.caja4 h4#v{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:-715px;
+  left: 670px;
+}
+
+section.caja4 h5#q{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-715px;
+  left: 670px;
+}
+
+section.caja4 h5#c{
+  position: relative;
+  color:#585858;
+  font-size: 10px;
+  position: relative;
+  top:-725px;
+  left: 670px;
+}
+
+section.caja5{
+  background-color: #F0F0F0;
+  height: 570px;
+  width: 1120px;
+  margin:0px auto;
+
+}
+
+section.caja5 h4#uni{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:70px;
+  left: 100px;
+}
+
+section.caja5 nav#listauna li#uno{
+  position: relative;
+  top: 75px;
+  left: 100px;
+}
+
+section.caja5 nav#listauna li#dos{
+  position: relative;
+  top: 90px;
+  left:100px;
+}
+
+section.caja5 nav#listauna li#tres{
+  position: relative;
+  top: 105px;
+  left:100px;
+
+}
+
+section.caja5 nav#listauna li#cuatro{
+  position: relative;
+  top: 120px;
+  left:100px;
+
+}
+
+section.caja5 nav#listauna li#cinco{
+  position: relative;
+  top: 138px;
+  left:100px;
+
+}
+
+section.caja5 nav#listauna li#seis{
+  position: relative;
+  top: 155px;
+  left:100px;
+
+}
+
+section.caja5 nav#listauna li#siete{
+  position: relative;
+  top: 173px;
+  left:100px;
+}
+
+section.caja5 nav#listauna li#ocho{
+  position: relative;
+  top: 193px;
+  left:100px;
+}
+
+section.caja5 nav#listauna li{
+  list-style-type: none;
+}
+ section.caja5 nav#listauna a{
+  color:#0080C0;
+  font-size: 10px;
+ }
+
+ section.caja5 h4#unj{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:-143px;
+  left: 340px;
+}
+
+section.caja5 nav#listados li{
+  list-style-type: none;
+}
+ section.caja5 nav#listados a{
+  color:#0080C0;
+  font-size: 10px;
+ }
+
+section.caja5 nav#listados li#nueve{
+  position: relative;
+  top: -140px;
+  left: 340px;
+}
+
+section.caja5 nav#listados li#diez{
+  position: relative;
+  top: -126px;
+  left:340px;
+}
+
+section.caja5 nav#listados li#once{
+  position: relative;
+  top: -110px;
+  left:340px;
+
+}
+
+section.caja5 nav#listados li#doce{
+  position: relative;
+  top: -95px;
+  left:340px;
+
+}
+
+section.caja5 nav#listados li#trece{
+  position: relative;
+  top: -77px;
+  left:340px;
+
+}
+
+section.caja5 nav#listados li#catorce{
+  position: relative;
+  top: -60px;
+  left:340px;
+
+}
+
+section.caja5 nav#listados li#quince{
+  position: relative;
+  top: -42px;
+  left:340px;
+}
+
+section.caja5 nav#listados li#dief{
+  position: relative;
+  top: -22px;
+  left:340px;
+}
+
+section.caja5 h4#u{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:-357px;
+  left: 570px;
+}
+
+section.caja5 img#funo{
+  position: relative;
+  top:-350px;
+  left:530px;
+}
+
+section.caja5 img#fdos{
+  position: relative;
+  top:-444px;
+  left:680px;
+}
+
+section.caja5 img#ftres{
+  position: relative;
+  top:-538px;
+  left:830px;
+}
+
+section.caja5 h4#l{
+  position: relative;
+  color:#585858;
+  font-weight: lighter;
+  top:-515px;
+  left: 570px;
+}
+
+section.caja5 img#puno{
+  position: relative;
+  top:-504px;
+  left:533px;
+}
+
+section.caja5 img#pdos{
+  position: relative;
+  top:-494px;
+  left:533px;
+}
+
+section.caja5 img#ptres{
+  position: relative;
+  top:-605px;
+  left:753px;
+}
+
+section.caja5 img#pcu{
+  position: relative;
+  top:-596px;
+  left:753px;
+}
+
+section.caja5 a#uno{
+  position: relative;
+  font-size: 10px;
+  top:-700px;
+  left: 610px;
+  color:#0080C0;
+}
+
+section.caja5 h5#k{
+  position: relative;
+  font-size: 10px;
+  color:#585858;
+  font-weight: lighter;
+  top:-676px;
+  left: 610px;
+}
+
+section.caja5 h5#d{
+  position: relative;
+  font-size: 10px;
+  color:#585858;
+  font-weight: lighter;
+  top:-692px;
+  left: 610px;
+}
+
+section.caja5 a#dos{
+  position: relative;
+  font-size: 10px;
+  top:-795px;
+  left: 830px;
+  color:#0080C0;
+}
+
+section.caja5 h5#g{
+  position: relative;
+  font-size: 10px;
+  color:#585858;
+  font-weight: lighter;
+  top:-766px;
+  left: 830px;
+}
+
+section.caja5 h5#t{
+  position: relative;
+  font-size: 10px;
+  color:#8D917D;
+  font-weight: lighter;
+  top:-700px;
+  left: 300px;
+}
+
+
